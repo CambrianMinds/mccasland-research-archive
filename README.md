@@ -54,6 +54,53 @@ Then open:
 http://127.0.0.1:4173/
 ```
 
+## X scraping
+
+The repo now includes a browser-based scraper for public X profile pages that does not use the X API:
+
+- [`scripts/scrape_x_profile.py`](scripts/scrape_x_profile.py)
+
+It uses Playwright to render the public profile timeline, scroll for status URLs, revisit each status page, and write out:
+
+- `posts.json`: full scraped post records
+- `links.json` and `links.csv`: extracted links
+- `media.json` and `media.csv`: discovered image and thumbnail URLs
+- `profile.json`: basic profile metadata
+- `summary.json`: run totals
+
+Install Chromium once if needed:
+
+```powershell
+python -m pip install playwright beautifulsoup4 lxml
+python -m playwright install chromium
+```
+
+For authenticated scraping, add a local cookie file at `secrets/x-cookies.json`:
+
+```json
+{
+  "auth_token": "YOUR_VALUE",
+  "ct0": "YOUR_VALUE"
+}
+```
+
+The scraper will load that file automatically when it exists.
+
+Example runs:
+
+```powershell
+python scripts/scrape_x_profile.py TMBSPACESHIPS --tab posts --tab media
+python scripts/scrape_x_profile.py TMBSPACESHIPS --tab posts --tab media --download-media
+```
+
+Note: on current guest sessions, X may block direct access to some profile tabs such as `media` or `replies`. The scraper now detects that case, skips the blocked tab, and continues with any tabs that are still publicly reachable.
+
+Outputs are written under:
+
+```text
+artifacts/x-scrape/<handle>/<timestamp>/
+```
+
 ## GitHub Pages
 
 This repo includes a GitHub Actions workflow that deploys the contents of `docs/` to GitHub Pages.

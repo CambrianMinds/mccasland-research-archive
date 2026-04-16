@@ -4,6 +4,9 @@ research/*.out
 research/*.toc
 research/*.synctex.gz
 research/.git.research-backup/
+artifacts/
+scripts/__pycache__/
+secrets/
 
 .DS_Store
 Thumbs.db
