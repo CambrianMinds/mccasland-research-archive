@@ -1,0 +1,9 @@
+research/*.aux
+research/*.log
+research/*.out
+research/*.toc
+research/*.synctex.gz
+research/.git.research-backup/
+
+.DS_Store
+Thumbs.db

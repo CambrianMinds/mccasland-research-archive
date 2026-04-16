@@ -1,0 +1,65 @@
+# McCasland Research Archive
+
+This repository is a public-facing research archive on retired U.S. Air Force Maj. Gen. William Neil McCasland, the public reporting on his disappearance in February 2026, the theory connecting him to the X account `@TMBSpaceships`, the Ashton Forbes connection, and the hand-drawn schematic introduced into that discussion.
+
+The project is designed to do two things at once:
+
+- preserve the working research materials and captured source files;
+- publish a readable website that separates documented fact from inference.
+
+## Public site
+
+The GitHub Pages site lives in [`docs/`](docs/).
+
+Key files:
+
+- [`docs/index.html`](docs/index.html): public landing page
+- [`docs/styles.css`](docs/styles.css): site styling
+- [`docs/app.js`](docs/app.js): timeline, gallery, claim matrix, and source interactions
+- [`docs/assets/docs/findings-report.pdf`](docs/assets/docs/findings-report.pdf): compiled report download
+
+## Research materials
+
+The underlying archive remains in the source directories:
+
+- [`research/findings.md`](research/findings.md): main working brief
+- [`research/trail-analysis.md`](research/trail-analysis.md): synthesis of the technical / nuclear / attribution trails
+- [`research/timeline.md`](research/timeline.md): dated chronology
+- [`research/findings-report.tex`](research/findings-report.tex): LaTeX source for the compiled report
+- [`notes/claim-matrix.md`](notes/claim-matrix.md): claim-by-claim assessments
+- [`sources/manifest.md`](sources/manifest.md): source inventory and capture notes
+- [`sources/primary/`](sources/primary/): downloaded primary and near-primary records
+- [`sources/context/`](sources/context/): downloaded context pages and public commentary captures
+- [`research-targets/`](research-targets/): reading list, saved pages, media, and supporting technical references
+
+## Working standards
+
+- Verified facts are attributed to captured sources whenever possible.
+- Public speculation is labeled as speculation.
+- The attribution of `@TMBSpaceships` to McCasland is treated as unconfirmed unless direct evidence appears.
+- Gaps, blocked captures, and unresolved questions are documented rather than silently smoothed over.
+
+## Local preview
+
+To preview the public site locally from the repository root:
+
+```powershell
+Set-Location docs
+python -m http.server 4173
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173/
+```
+
+## GitHub Pages
+
+This repo includes a GitHub Actions workflow that deploys the contents of `docs/` to GitHub Pages.
+
+Once the repository exists on GitHub:
+
+1. Push the repo.
+2. In GitHub, enable Pages with **GitHub Actions** as the source.
+3. The workflow in [`.github/workflows/pages.yml`](.github/workflows/pages.yml) will publish the site automatically on pushes to `main`.

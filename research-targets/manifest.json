@@ -1,0 +1,345 @@
+[
+  {
+    "slug": "tmbspaceships",
+    "title": "@TMBSPACESHIPS",
+    "section": "root",
+    "source_type": "page",
+    "description": null,
+    "targets": [
+      {
+        "title": "@TMBSPACESHIPS",
+        "url": "https://x.com/TMBSPACESHIPS",
+        "kind": "page",
+        "local_path": "pages/root/tmbspaceships/tmbspaceships.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=utf-8",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "electro-acoustic-waves",
+    "title": "Electro-Acoustic Waves",
+    "section": "2. Plasma, Ion, & Shock Wave Physics",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Electro-Acoustic Waves",
+        "url": "https://pbs.twimg.com/media/HCBqXk8XcAAjOEG.jpg",
+        "kind": "image",
+        "local_path": "media/2-plasma-ion-and-shock-wave-physics/electro-acoustic-waves.jpg",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/jpeg",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "magnetic-stochastics",
+    "title": "Magnetic Stochastics",
+    "section": "2. Plasma, Ion, & Shock Wave Physics",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Magnetic Stochastics",
+        "url": "https://pbs.twimg.com/media/HByJ2EHXIAAiadK.jpg",
+        "kind": "image",
+        "local_path": "media/2-plasma-ion-and-shock-wave-physics/magnetic-stochastics.jpg",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/jpeg",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "glow-discharge-hydrogenated-amorphous-silicone",
+    "title": "Glow Discharge Hydrogenated Amorphous Silicone",
+    "section": "2. Plasma, Ion, & Shock Wave Physics",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Glow Discharge Hydrogenated Amorphous Silicone",
+        "url": "https://pbs.twimg.com/media/HB-FjNiXIAAkgBb.jpg",
+        "kind": "image",
+        "local_path": "media/2-plasma-ion-and-shock-wave-physics/glow-discharge-hydrogenated-amorphous-silicone.jpg",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/jpeg",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "modern-spacecraft",
+    "title": "Modern Spacecraft",
+    "section": "3. Inertia-Less Propulsion & Antigravity Concepts",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Modern Spacecraft",
+        "url": "https://pbs.twimg.com/media/HB7NXEAWkAAbTT-.jpg",
+        "kind": "image",
+        "local_path": "media/3-inertia-less-propulsion-and-antigravity-concepts/modern-spacecraft.jpg",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/jpeg",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "modern-spacecraft-2",
+    "title": "Modern Spacecraft 2",
+    "section": "3. Inertia-Less Propulsion & Antigravity Concepts",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Modern Spacecraft 2",
+        "url": "https://pbs.twimg.com/media/HB7N-O6XAAAv_zZ.png",
+        "kind": "image",
+        "local_path": "media/3-inertia-less-propulsion-and-antigravity-concepts/modern-spacecraft-2.png",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/png",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "momentum-wheel",
+    "title": "Momentum Wheel",
+    "section": "3. Inertia-Less Propulsion & Antigravity Concepts",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Momentum Wheel",
+        "url": "https://pbs.twimg.com/media/G9XKAgrXIAA4x6M.jpg",
+        "kind": "image",
+        "local_path": "media/3-inertia-less-propulsion-and-antigravity-concepts/momentum-wheel.jpg",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/jpeg",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "foo-fighter-momentum-context",
+    "title": "Foo Fighter Momentum Context",
+    "section": "3. Inertia-Less Propulsion & Antigravity Concepts",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Foo Fighter Momentum Context",
+        "url": "https://pbs.twimg.com/media/G9WmvEnXYAAljDX.png",
+        "kind": "image",
+        "local_path": "media/3-inertia-less-propulsion-and-antigravity-concepts/foo-fighter-momentum-context.png",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/png",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "solid-state-alternator",
+    "title": "Solid-State Alternator",
+    "section": "4. Solid-State Power & Free Energy",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Solid-State Alternator",
+        "url": "https://pbs.twimg.com/media/G9TIIm0XQAAsWir.png",
+        "kind": "image",
+        "local_path": "media/4-solid-state-power-and-free-energy/solid-state-alternator.png",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/png",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "muon-catalyzed-fusion",
+    "title": "Muon-Catalyzed Fusion",
+    "section": "5. Fusion & Nuclear-Related Topics",
+    "source_type": "image",
+    "description": null,
+    "targets": [
+      {
+        "title": "Muon-Catalyzed Fusion",
+        "url": "https://pbs.twimg.com/media/HCBrUlRW4AAd1zQ.png",
+        "kind": "image",
+        "local_path": "media/5-fusion-and-nuclear-related-topics/muon-catalyzed-fusion.png",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "image/png",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "electrodynamics-of-continuous-media-lev-landau",
+    "title": "Electrodynamics of Continuous Media - Lev Landau",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "Open Library record",
+        "url": "https://openlibrary.org/books/OL3182313M/Electrodynamics_of_continuous_media",
+        "kind": "page",
+        "local_path": "pages/recommended-reading-list-directly-referenced-or-implied/electrodynamics-of-continuous-media-lev-landau/open-library-record.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=utf-8",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "shock-waves-in-collisionless-plasmas-chapter-3-magnetosonic-waves-shocks-and-solitons-archiveorg-details-shockwavesincoll00tidm",
+    "title": "Shock Waves in Collisionless Plasmas (Chapter 3: Magnetosonic Waves, Shocks and Solitons) - archive.org/details/shockwavesincoll00tidm",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "Shock Waves in Collisionless Plasmas (Chapter 3: Magnetosonic Waves, Shocks and Solitons) - archive.org/details/shockwavesincoll00tidm",
+        "url": "https://archive.org/details/shockwavesincoll00tidm",
+        "kind": "page",
+        "local_path": "pages/recommended-reading-list-directly-referenced-or-implied/shock-waves-in-collisionless-plasmas-chapter-3-magnetosonic-waves-shocks-and-solitons-archiveorg-details-shockwavesincoll00tidm/shock-waves-in-collisionless-plasmas-chapter-3-magnetosonic-waves-shocks-and-solitons-archiveorg-details-shockwavesincoll00tidm.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=UTF-8",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "works-by-aw-trivelpiece-slow-wave-propagation-in-plasma-waveguides",
+    "title": "Works by A.W. Trivelpiece (Slow Wave Propagation in Plasma Waveguides)",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "CaltechTHESIS landing page",
+        "url": "https://thesis.library.caltech.edu/2799/",
+        "kind": "page",
+        "local_path": null,
+        "status": "failed",
+        "note": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "content_type": null,
+        "http_status": null
+      },
+      {
+        "title": "Dissertation PDF",
+        "url": "https://thesis.library.caltech.edu/2799/1/Trivelpiece_aw_1958.pdf",
+        "kind": "paper",
+        "local_path": null,
+        "status": "failed",
+        "note": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "content_type": null,
+        "http_status": null
+      }
+    ]
+  },
+  {
+    "slug": "rm-bevensee-electromagnetic-slow-wave-systems-1964",
+    "title": "R.M. Bevensee - Electromagnetic Slow Wave Systems (1964)",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "Open Library record",
+        "url": "https://openlibrary.org/books/OL5911516M/Electromagnetic_slow_wave_systems",
+        "kind": "page",
+        "local_path": "pages/recommended-reading-list-directly-referenced-or-implied/rm-bevensee-electromagnetic-slow-wave-systems-1964/open-library-record.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=utf-8",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "k-tanaka-1989-glow-discharge-hydrogenated-amorphous-silicone",
+    "title": "K. Tanaka (1989) - Glow Discharge Hydrogenated Amorphous Silicone",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "Springer record",
+        "url": "https://link.springer.com/book/9780792303091",
+        "kind": "page",
+        "local_path": "pages/recommended-reading-list-directly-referenced-or-implied/k-tanaka-1989-glow-discharge-hydrogenated-amorphous-silicone/springer-record.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=utf-8",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "resonating-valence-bond-theory-wikipedia-overview",
+    "title": "Resonating Valence Bond Theory (Wikipedia overview)",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "Wikipedia article",
+        "url": "https://en.wikipedia.org/wiki/Resonating_valence_bond_theory",
+        "kind": "page",
+        "local_path": "pages/recommended-reading-list-directly-referenced-or-implied/resonating-valence-bond-theory-wikipedia-overview/wikipedia-article.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=UTF-8",
+        "http_status": 200
+      }
+    ]
+  },
+  {
+    "slug": "very-high-mach-number-electrostatic-shocks-in-collisionless-plasmas-2006-paper",
+    "title": "Very High Mach-Number Electrostatic Shocks in Collisionless Plasmas (2006 paper)",
+    "section": "Recommended Reading List (Directly Referenced or Implied)",
+    "source_type": "reference",
+    "description": "Recommended reading list entry from research-targets.md",
+    "targets": [
+      {
+        "title": "arXiv abstract",
+        "url": "https://arxiv.org/abs/physics/0512231",
+        "kind": "page",
+        "local_path": "pages/recommended-reading-list-directly-referenced-or-implied/very-high-mach-number-electrostatic-shocks-in-collisionless-plasmas-2006-paper/arxiv-abstract.html",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "text/html; charset=utf-8",
+        "http_status": 200
+      },
+      {
+        "title": "arXiv PDF",
+        "url": "https://arxiv.org/pdf/physics/0512231.pdf",
+        "kind": "paper",
+        "local_path": "papers/very-high-mach-number-electrostatic-shocks-in-collisionless-plasmas-2006-paper/arxiv-pdf.pdf",
+        "status": "downloaded",
+        "note": null,
+        "content_type": "application/pdf",
+        "http_status": 200
+      }
+    ]
+  }
+]
