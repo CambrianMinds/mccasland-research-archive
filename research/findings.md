@@ -87,35 +87,7 @@ Public speculation appears to rest on a biographical pattern match:
 
 Those points do overlap with McCasland's public profile. The official Air Force bio confirms AFIT assignments, an MIT doctorate, senior Air Force technology leadership, and command of AFRL.
 
-But the archive now contains even stronger reasons to be careful:
-
-- The local `TwiCopy` mirror describes the account as `Retired 38 year Active Duty USAF PhD Engineer` and shows `AFIT/ATEC/AFMC - UT/OU`. McCasland's official and institutional bios consistently point to a `34-year career`, not 38.
-- Live `TwStalker` search observations from April 15, 2026, showed a similar but not identical profile text with `AETC` rather than `ATEC`. That mirror disagreement means even the profile wording is not stable across non-primary archives.
-- I did not find a primary-source chain tying McCasland's email, phone, or known public profiles to `@TMBSpaceships`.
-- No law-enforcement, family, or institutional statement in the collected sources mentions the account.
-- The local `TwiCopy` capture shows visible tweet links only through `2026-01-27` after tweet-ID decoding. That means this local file cannot prove the account stopped posting on `2026-02-27`.
-- The best live mirror evidence I found actually points the other direction: on April 15, 2026, search-result snippets for `TwStalker` showed `@TMBSPACESHIPS` with recent activity markers such as `a month ago` and `2 months ago`. Because those were live-search snippets rather than preserved pages, I treat them as contextual rather than dispositive. But they are enough to say the specific `went silent the day he vanished` claim is not supported by the evidence gathered here.
-
-My assessment is that the McCasland-to-`TMBSpaceships` theory is plausible enough to explain why people looked at him, but unproven on the evidence gathered here, and that one of the loudest supporting claims about the account going silent on Feb. 27 currently looks weak.
-
-## What The New `/tmbspaceships` Repo Changes
-
-The local `/tmbspaceships` repo is useful, but it changes the confidence around dataset size more than identity.
-
-What it adds:
-
-- It shows someone built a knowledge-graph app around a `TMBSPACESHIPS` tweet corpus and described that corpus as `583 tweets`.
-- Its X API client is capable of paginating up to `3,200` tweets from the account.
-- The fetch defaults exclude both replies and retweets.
-
-What it does **not** add:
-
-- the underlying `tmbspaceships_posts.json` export
-- the `surreal_data/` database
-- the `images/` directory used by ingestion
-- any direct ownership proof tying the account to McCasland
-
-That means I should not treat `583 tweets` as the definitive size of the account. In this repo, `583` is the size of one derived local corpus, not necessarily the total posting history on X. It also means the repo by itself cannot settle the timeline question about whether the account posted after Feb. 27, 2026, because the actual dated tweet records are absent.
+My assessment is that the McCasland-to-`TMBSpaceships` theory is plausible enough to explain why people looked at him, but unproven on the evidence gathered here.
 
 ## Ashton Forbes
 
@@ -233,6 +205,7 @@ The XLSX spreadsheet records the last post from `@TMBSpaceships` as **2026-02-27
 > **18:28 UTC = 11:28 AM MST**
 
 The publicly reported disappearance window is:
+
 - Repairman interacted with McCasland around **10:00 AM MST**
 - His wife returned around **noon MST** and found him gone
 
@@ -373,6 +346,7 @@ The Bernalillo County Sheriff's Office extended the search to McCasland's Pagosa
 ### Missing items complete list
 
 As of mid-March 2026 reporting:
+
 - **Left behind:** Phone, prescription glasses, wearable devices
 - **Missing:** Hiking boots, wallet, .38-caliber revolver with leather holster, red backpack
 
@@ -443,7 +417,7 @@ This matters for the handwriting identification question. Forbes identified Susa
 
 The Ghost General identified a WikiLeaks email not previously catalogued in this archive. This has now been independently verified via direct fetch:
 
-- **Email ID 51979:** John Podesta replies to McCasland (neilmcc79@gmail.com) confirming the DeLonge/Podesta meeting time as "12:30 EST." The full CC list on this email is: `t.delonge@me.com`, `mfisher@hillaryclinton.com` (Clinton campaign staffer Megan Fisher), **`rob.f.weiss@lmco.com`** (Lockheed Martin corporate email), and `carey.mjd@gmail.com` (Major General Michael Carey).
+- **Email ID 51979:** John Podesta replies to McCasland (<neilmcc79@gmail.com>) confirming the DeLonge/Podesta meeting time as "12:30 EST." The full CC list on this email is: `t.delonge@me.com`, `mfisher@hillaryclinton.com` (Clinton campaign staffer Megan Fisher), **`rob.f.weiss@lmco.com`** (Lockheed Martin corporate email), and `carey.mjd@gmail.com` (Major General Michael Carey).
 
 The meeting was a Google Hangout scheduled for January 25, 2016, with the following attendees: Tom DeLonge, Neil McCasland, Megan Fisher (Clinton campaign), **Rob Weiss (Lockheed Martin)**, Michael Carey, and John Podesta.
 

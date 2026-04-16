@@ -121,9 +121,11 @@ DETAIL_JS = r"""
   const target = normalize(targetUrl);
   const articles = Array.from(document.querySelectorAll('article[data-testid="tweet"]'));
   let article = articles.find((node) => {
-    return Array.from(node.querySelectorAll('a[href*="/status/"] time'))
-      .map((timeNode) => normalize(timeNode.parentElement?.getAttribute('href')))
-      .includes(target);
+    const hrefs = Array.from(node.querySelectorAll('a[href*="/status/"]'))
+      .map((anchor) => normalize(anchor.getAttribute('href')))
+      .filter(Boolean)
+      .map((href) => href.replace(/\/analytics$/, '').replace(/\/photo\/\d+$/, ''));
+    return hrefs.includes(target);
   });
   if (!article) {
     article = articles[0] || null;
@@ -491,6 +493,30 @@ def page_looks_missing(page) -> bool:
     return any(marker in body_text for marker in missing_markers)
 
 
+def page_needs_retry(page) -> bool:
+    body_text = page.locator("body").inner_text(timeout=10000)
+    retry_markers = [
+        "Something went wrong. Try reloading.",
+        "Retry",
+        "Rate limit exceeded",
+        "This page is down",
+    ]
+    return any(marker in body_text for marker in retry_markers)
+
+
+def wait_for_detail_content(page, timeout_ms: int = 25000) -> None:
+    deadline = time.time() + (timeout_ms / 1000)
+    while time.time() < deadline:
+        article_count = page.locator('article[data-testid="tweet"]').count()
+        status_link_count = page.locator('a[href*="/status/"]').count()
+        if article_count or status_link_count:
+            return
+        if page_looks_missing(page):
+            raise TabUnavailableError("tweet page resolved to a missing-page shell")
+        page.wait_for_timeout(1000)
+    raise PlaywrightTimeoutError("Timed out waiting for tweet/status content to render")
+
+
 def open_timeline_tab(page, handle: str, tab: str) -> None:
     url = profile_url(handle, tab)
     print(f"[timeline] opening {url}", flush=True)
@@ -574,21 +600,44 @@ def collect_statuses_from_tab(page, handle: str, tab: str, max_scrolls: int, idl
 
 
 def scrape_status(detail_page, status_url: str) -> dict[str, Any]:
-    detail_page.goto(status_url, wait_until="domcontentloaded", timeout=120000)
-    detail_page.wait_for_selector('article[data-testid="tweet"]', timeout=60000)
-    detail_page.wait_for_timeout(2500)
+    last_error: Exception | None = None
+    for attempt in range(1, 4):
+        try:
+            detail_page.goto(status_url, wait_until="domcontentloaded", timeout=120000)
+            wait_for_detail_content(detail_page, timeout_ms=25000)
+            detail_page.wait_for_timeout(2500 + (attempt - 1) * 1500)
 
-    payload = detail_page.evaluate(DETAIL_JS, status_url)
-    if not payload:
-        raise RuntimeError(f"could not find tweet article for {status_url}")
+            payload = detail_page.evaluate(DETAIL_JS, status_url)
+            if not payload:
+                raise RuntimeError(f"could not find target tweet in conversation for {status_url}")
 
-    payload = clean_payload(payload)
-    payload["status_id"] = extract_status_id(status_url)
-    payload["media_urls"] = [normalize_media_url(url) for url in payload.get("media_urls", [])]
-    payload["external_links"] = [
-        entry for entry in payload.get("all_links", []) if entry.get("href") and not is_internal_x_link(entry["href"])
-    ]
-    return payload
+            payload = clean_payload(payload)
+            payload["status_id"] = extract_status_id(status_url)
+            payload["media_urls"] = [normalize_media_url(url) for url in payload.get("media_urls", [])]
+            payload["external_links"] = [
+                entry
+                for entry in payload.get("all_links", [])
+                if entry.get("href") and not is_internal_x_link(entry["href"])
+            ]
+            return payload
+        except (PlaywrightError, PlaywrightTimeoutError, RuntimeError) as exc:
+            last_error = exc
+            print(
+                f"[detail] retry {attempt}/3 for {status_url}: {exc}",
+                file=sys.stderr,
+                flush=True,
+            )
+            if attempt == 3:
+                break
+            try:
+                if page_needs_retry(detail_page):
+                    detail_page.reload(wait_until="domcontentloaded", timeout=120000)
+                    detail_page.wait_for_timeout(3000 * attempt)
+            except Exception:
+                pass
+            detail_page.wait_for_timeout(3000 * attempt)
+
+    raise RuntimeError(str(last_error) if last_error else f"failed to scrape {status_url}")
 
 
 def download_media(rows: list[dict[str, Any]], media_dir: Path) -> list[dict[str, Any]]:
