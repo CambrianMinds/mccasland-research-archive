@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm --version)"
+      "Bash(npm --version)",
+      "Bash(claude mcp *)",
+      "Bash(npx -y @modelcontextprotocol/server-fetch)",
+      "Bash(npm search *)",
+      "Bash(npx -y @anthropic-ai/mcp-server-fetch --help)",
+      "Bash(python3 *)"
     ]
   }
 }
