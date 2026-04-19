@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "stage": 2,
+    "title": "McCasland Research - Stage 2: High-Confidence Correlations",
+    "confidence_threshold": 0.65,
+    "total_possible_pairs": 857,
+    "high_confidence_pairs": 40,
+    "confidence_methodology": "co-occurrence + mention strength (0.6/0.4 weighted)"
+  },
+  "correlations": {
+    "February 13, 2026 | February 16, 2026": {
+      "confidence": 0.92,
+      "shared_documents": 2,
+      "entity1_type": "Date/Event",
+      "entity2_type": "Date/Event",
+      "entity1_mentions": 4,
+      "entity2_mentions": 5,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\trail-analysis.md"
+      ]
+    },
+    "February 27, 2026 | mhd": {
+      "confidence": 0.867,
+      "shared_documents": 5,
+      "entity1_type": "Date/Event",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 12,
+      "entity2_mentions": 11,
+      "shared_docs_list": [
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md"
+      ]
+    },
+    "AFIT | AFMC": {
+      "confidence": 0.866,
+      "shared_documents": 11,
+      "entity1_type": "Organization",
+      "entity2_type": "Organization",
+      "entity1_mentions": 19,
+      "entity2_mentions": 15,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md"
+      ]
+    },
+    "ATA | Dbe Consulting": {
+      "confidence": 0.849,
+      "shared_documents": 4,
+      "entity1_type": "Organization",
+      "entity2_type": "Person",
+      "entity1_mentions": 12,
+      "entity2_mentions": 13,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "@TMBSpaceships | Ashton Forbes": {
+      "confidence": 0.838,
+      "shared_documents": 9,
+      "entity1_type": "Account/Handle",
+      "entity2_type": "Person",
+      "entity1_mentions": 66,
+      "entity2_mentions": 64,
+      "shared_docs_list": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html"
+      ]
+    },
+    "Susan Mccasland Wilkerson | Tom Delonge": {
+      "confidence": 0.831,
+      "shared_documents": 6,
+      "entity1_type": "Person",
+      "entity2_type": "Person",
+      "entity1_mentions": 21,
+      "entity2_mentions": 20,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "@TMBSpaceships | TMBSpaceships": {
+      "confidence": 0.808,
+      "shared_documents": 11,
+      "entity1_type": "Account/Handle",
+      "entity2_type": "Account/Handle",
+      "entity1_mentions": 66,
+      "entity2_mentions": 88,
+      "shared_docs_list": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html"
+      ]
+    },
+    "MIT | Susan Wilkerson": {
+      "confidence": 0.8,
+      "shared_documents": 5,
+      "entity1_type": "Organization",
+      "entity2_type": "Person",
+      "entity1_mentions": 14,
+      "entity2_mentions": 13,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "Dbe Consulting | Susan Wilkerson": {
+      "confidence": 0.8,
+      "shared_documents": 4,
+      "entity1_type": "Person",
+      "entity2_type": "Person",
+      "entity1_mentions": 13,
+      "entity2_mentions": 13,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "James Tegnelia | z-pinch": {
+      "confidence": 0.8,
+      "shared_documents": 2,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 4,
+      "entity2_mentions": 4,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md"
+      ]
+    },
+    "James Tegnelia | plasma propulsion": {
+      "confidence": 0.8,
+      "shared_documents": 2,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 4,
+      "entity2_mentions": 2,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md"
+      ]
+    },
+    "Ashton Forbes | TMBSpaceships": {
+      "confidence": 0.799,
+      "shared_documents": 11,
+      "entity1_type": "Person",
+      "entity2_type": "Account/Handle",
+      "entity1_mentions": 64,
+      "entity2_mentions": 88,
+      "shared_docs_list": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html"
+      ]
+    },
+    "Rob Weiss | crookes dark space": {
+      "confidence": 0.791,
+      "shared_documents": 4,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 7,
+      "entity2_mentions": 9,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "Susan Wilkerson | crookes dark space": {
+      "confidence": 0.777,
+      "shared_documents": 5,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 13,
+      "entity2_mentions": 9,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "slow wave | solid-state power": {
+      "confidence": 0.757,
+      "shared_documents": 5,
+      "entity1_type": "Technical Topic",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 14,
+      "entity2_mentions": 9,
+      "shared_docs_list": [
+        "research-targets.md",
+        "research-targets\\README.md",
+        "research-targets\\guide-local.md"
+      ]
+    },
+    "Dbe Consulting | crookes dark space": {
+      "confidence": 0.757,
+      "shared_documents": 4,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 13,
+      "entity2_mentions": 9,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "electret | slow wave": {
+      "confidence": 0.743,
+      "shared_documents": 4,
+      "entity1_type": "Technical Topic",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 12,
+      "entity2_mentions": 14,
+      "shared_docs_list": [
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\source.md"
+      ]
+    },
+    "crookes dark space | fusion reactor": {
+      "confidence": 0.72,
+      "shared_documents": 3,
+      "entity1_type": "Technical Topic",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 9,
+      "entity2_mentions": 10,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "Dbe Consulting | MIT": {
+      "confidence": 0.714,
+      "shared_documents": 4,
+      "entity1_type": "Person",
+      "entity2_type": "Organization",
+      "entity1_mentions": 13,
+      "entity2_mentions": 14,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "APPLIED TECHNOLOGY ASSOCIATES | ATA": {
+      "confidence": 0.713,
+      "shared_documents": 4,
+      "entity1_type": "Organization",
+      "entity2_type": "Organization",
+      "entity1_mentions": 7,
+      "entity2_mentions": 12,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html"
+      ]
+    },
+    "Susan Wilkerson | fusion reactor": {
+      "confidence": 0.708,
+      "shared_documents": 4,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 13,
+      "entity2_mentions": 10,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "APPLIED TECHNOLOGY ASSOCIATES | Rob Weiss": {
+      "confidence": 0.7,
+      "shared_documents": 2,
+      "entity1_type": "Organization",
+      "entity2_type": "Person",
+      "entity1_mentions": 7,
+      "entity2_mentions": 7,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "February 13, 2026 | February 20, 2026": {
+      "confidence": 0.7,
+      "shared_documents": 1,
+      "entity1_type": "Date/Event",
+      "entity2_type": "Date/Event",
+      "entity1_mentions": 4,
+      "entity2_mentions": 4,
+      "shared_docs_list": [
+        "research\\trail-analysis.md"
+      ]
+    },
+    "February 13, 2026 | James Tegnelia": {
+      "confidence": 0.7,
+      "shared_documents": 1,
+      "entity1_type": "Date/Event",
+      "entity2_type": "Person",
+      "entity1_mentions": 4,
+      "entity2_mentions": 4,
+      "shared_docs_list": [
+        "research\\findings.md"
+      ]
+    },
+    "LOCKHEED SKUNK WORKS | plasma propulsion": {
+      "confidence": 0.7,
+      "shared_documents": 1,
+      "entity1_type": "Organization",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 2,
+      "entity2_mentions": 2,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md"
+      ]
+    },
+    "Dbe Consulting | Rob Weiss": {
+      "confidence": 0.695,
+      "shared_documents": 4,
+      "entity1_type": "Person",
+      "entity2_type": "Person",
+      "entity1_mentions": 13,
+      "entity2_mentions": 7,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "RIVERSIDE RESEARCH | WRIGHT-PATTERSON AFB": {
+      "confidence": 0.694,
+      "shared_documents": 3,
+      "entity1_type": "Organization",
+      "entity2_type": "Organization",
+      "entity1_mentions": 73,
+      "entity2_mentions": 61,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "MIT | crookes dark space": {
+      "confidence": 0.686,
+      "shared_documents": 5,
+      "entity1_type": "Organization",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 14,
+      "entity2_mentions": 9,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "AFIT | USAF": {
+      "confidence": 0.681,
+      "shared_documents": 10,
+      "entity1_type": "Organization",
+      "entity2_type": "Organization",
+      "entity1_mentions": 19,
+      "entity2_mentions": 27,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md"
+      ]
+    },
+    "AFRL | Neil Mccasland": {
+      "confidence": 0.675,
+      "shared_documents": 6,
+      "entity1_type": "Organization",
+      "entity2_type": "Person",
+      "entity1_mentions": 46,
+      "entity2_mentions": 40,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "February 27, 2026 | Susan Wilkerson": {
+      "confidence": 0.669,
+      "shared_documents": 3,
+      "entity1_type": "Date/Event",
+      "entity2_type": "Person",
+      "entity1_mentions": 12,
+      "entity2_mentions": 13,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\trail-analysis.md"
+      ]
+    },
+    "ATA | Susan Wilkerson": {
+      "confidence": 0.669,
+      "shared_documents": 3,
+      "entity1_type": "Organization",
+      "entity2_type": "Person",
+      "entity1_mentions": 12,
+      "entity2_mentions": 13,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "Dbe Consulting | fusion reactor": {
+      "confidence": 0.668,
+      "shared_documents": 3,
+      "entity1_type": "Person",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 13,
+      "entity2_mentions": 10,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md"
+      ]
+    },
+    "KIRTLAND AFB | KIRTLAND PARTNERSHIP COMMITTEE": {
+      "confidence": 0.667,
+      "shared_documents": 3,
+      "entity1_type": "Organization",
+      "entity2_type": "Organization",
+      "entity1_mentions": 36,
+      "entity2_mentions": 33,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "sources\\primary\\kpc-board-of-directors.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html"
+      ]
+    },
+    "John Podesta | Neilmcc79": {
+      "confidence": 0.665,
+      "shared_documents": 7,
+      "entity1_type": "Person",
+      "entity2_type": "Person",
+      "entity1_mentions": 30,
+      "entity2_mentions": 49,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\primary\\wikileaks-emailid-14150-carey-accepted.html"
+      ]
+    },
+    "fusion reactor | mhd": {
+      "confidence": 0.664,
+      "shared_documents": 3,
+      "entity1_type": "Technical Topic",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 10,
+      "entity2_mentions": 11,
+      "shared_docs_list": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "sources\\context\\iheart-ashton-forbes-livestream.html"
+      ]
+    },
+    "@TMBSpaceships | AFRL": {
+      "confidence": 0.661,
+      "shared_documents": 7,
+      "entity1_type": "Account/Handle",
+      "entity2_type": "Organization",
+      "entity1_mentions": 66,
+      "entity2_mentions": 46,
+      "shared_docs_list": [
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md"
+      ]
+    },
+    "ATA | crookes dark space": {
+      "confidence": 0.66,
+      "shared_documents": 3,
+      "entity1_type": "Organization",
+      "entity2_type": "Technical Topic",
+      "entity1_mentions": 12,
+      "entity2_mentions": 9,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "@TMBSPACESHIPS | AFIT": {
+      "confidence": 0.658,
+      "shared_documents": 6,
+      "entity1_type": "Account/Handle",
+      "entity2_type": "Organization",
+      "entity1_mentions": 17,
+      "entity2_mentions": 19,
+      "shared_docs_list": [
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\source.md"
+      ]
+    },
+    "AIR FORCE RESEARCH LABORATORY | Neil Mccasland": {
+      "confidence": 0.653,
+      "shared_documents": 5,
+      "entity1_type": "Organization",
+      "entity2_type": "Person",
+      "entity1_mentions": 38,
+      "entity2_mentions": 40,
+      "shared_docs_list": [
+        "research\\findings.md",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\primary\\abcnews-fbi-assisting-search-mar-12-2026.html"
+      ]
+    }
+  }
+}

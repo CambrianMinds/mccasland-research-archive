@@ -170,7 +170,7 @@ For the claim-level breakdown tied to this schematic, see `../notes/claim-matrix
 
 ## New Evidence: XLSX Post Analysis and Mystery Images (April 16, 2026)
 
-A second pass over the post corpus — including the `TMBSPACESHIPS_Posts.xlsx` spreadsheet and three previously un-examined image-only posts from February 18–20, 2026 — produced four findings that materially strengthen the case.
+A second pass over the post corpus — including the `artifacts/evidence/TMBSPACESHIPS_Posts.xlsx` spreadsheet and three previously un-examined image-only posts from February 18–20, 2026 — produced four findings that materially strengthen the case.
 
 ### Finding 1: The "pumpable" linguistic chain directly ties the schematic to the post corpus
 
@@ -190,7 +190,7 @@ The image attached to the February 16 "pumpable" reply is a hand-drawn diagram o
 
 ### Finding 2b: A second February 27 post — a reply about helium ionization
 
-The `xposts.md` archive contains a second February 27, 2026 post not captured in the XLSX spreadsheet. This is a reply post with the following content:
+The `artifacts/evidence/xposts.md` archive contains a second February 27, 2026 post not captured in the XLSX spreadsheet. This is a reply post with the following content:
 
 > *"I never found out whose model or Engineering, manufactured that model. I would like to see the Helium Ionizer. I ionized helium to He+(+5 or +6 state). The High ionization of Helium slows renormalization."*
 
@@ -209,7 +209,7 @@ The publicly reported disappearance window is:
 - Repairman interacted with McCasland around **10:00 AM MST**
 - His wife returned around **noon MST** and found him gone
 
-The account's last captured post in the XLSX — "Generate small LOCAL FIELD. High Voltage gap, geometrically placed, allowing sustained Dwell time in gap." — was published at **11:28 AM MST** (18:28 UTC). The `xposts.md` archive also records a second February 27 reply post, though without an independent timestamp. The Sentinel Network article states the final post time was "approximately 10:38 AM," a 50-minute discrepancy likely attributable to timezone interpretation. Both timestamps fall within the documented disappearance window regardless.
+The account's last captured post in the XLSX — "Generate small LOCAL FIELD. High Voltage gap, geometrically placed, allowing sustained Dwell time in gap." — was published at **11:28 AM MST** (18:28 UTC). The `artifacts/evidence/xposts.md` archive also records a second February 27 reply post, though without an independent timestamp. The Sentinel Network article states the final post time was "approximately 10:38 AM," a 50-minute discrepancy likely attributable to timezone interpretation. Both timestamps fall within the documented disappearance window regardless.
 
 Both posts together fall squarely inside the window during which McCasland's movements are unaccounted for. This is the most specific temporal link between the account and McCasland's disappearance found in this archive.
 

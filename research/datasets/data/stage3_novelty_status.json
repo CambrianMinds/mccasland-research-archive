@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "stage": 3,
+    "title": "McCasland Research - Stage 3: Novelty Verification",
+    "analysis_date": "2026-04-19",
+    "documented_correlations": 21,
+    "novel_correlations": 19,
+    "web_search_targets": 10
+  },
+  "documented": [
+    {
+      "pair": "ATA | Dbe Consulting",
+      "confidence": 0.849
+    },
+    {
+      "pair": "@TMBSpaceships | Ashton Forbes",
+      "confidence": 0.838
+    },
+    {
+      "pair": "Susan Mccasland Wilkerson | Tom Delonge",
+      "confidence": 0.831
+    },
+    {
+      "pair": "@TMBSpaceships | TMBSpaceships",
+      "confidence": 0.808
+    },
+    {
+      "pair": "MIT | Susan Wilkerson",
+      "confidence": 0.8
+    },
+    {
+      "pair": "Dbe Consulting | Susan Wilkerson",
+      "confidence": 0.8
+    },
+    {
+      "pair": "Ashton Forbes | TMBSpaceships",
+      "confidence": 0.799
+    },
+    {
+      "pair": "Susan Wilkerson | crookes dark space",
+      "confidence": 0.777
+    },
+    {
+      "pair": "Dbe Consulting | crookes dark space",
+      "confidence": 0.757
+    },
+    {
+      "pair": "Dbe Consulting | MIT",
+      "confidence": 0.714
+    },
+    {
+      "pair": "Susan Wilkerson | fusion reactor",
+      "confidence": 0.708
+    },
+    {
+      "pair": "Dbe Consulting | Rob Weiss",
+      "confidence": 0.695
+    },
+    {
+      "pair": "RIVERSIDE RESEARCH | WRIGHT-PATTERSON AFB",
+      "confidence": 0.694
+    },
+    {
+      "pair": "AFRL | Neil Mccasland",
+      "confidence": 0.675
+    },
+    {
+      "pair": "February 27, 2026 | Susan Wilkerson",
+      "confidence": 0.669
+    }
+  ],
+  "novel_top_10": [
+    {
+      "pair": "February 13, 2026 | February 16, 2026",
+      "confidence": 0.92,
+      "types": "Date/Event/Date/Event",
+      "shared_documents": 2,
+      "mention_counts": "4x5",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "February 27, 2026 | mhd",
+      "confidence": 0.867,
+      "types": "Date/Event/Technical Topic",
+      "shared_documents": 5,
+      "mention_counts": "12x11",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "AFIT | AFMC",
+      "confidence": 0.866,
+      "types": "Organization/Organization",
+      "shared_documents": 11,
+      "mention_counts": "19x15",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "James Tegnelia | z-pinch",
+      "confidence": 0.8,
+      "types": "Person/Technical Topic",
+      "shared_documents": 2,
+      "mention_counts": "4x4",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "James Tegnelia | plasma propulsion",
+      "confidence": 0.8,
+      "types": "Person/Technical Topic",
+      "shared_documents": 2,
+      "mention_counts": "4x2",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "Rob Weiss | crookes dark space",
+      "confidence": 0.791,
+      "types": "Person/Technical Topic",
+      "shared_documents": 4,
+      "mention_counts": "7x9",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "slow wave | solid-state power",
+      "confidence": 0.757,
+      "types": "Technical Topic/Technical Topic",
+      "shared_documents": 5,
+      "mention_counts": "14x9",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "electret | slow wave",
+      "confidence": 0.743,
+      "types": "Technical Topic/Technical Topic",
+      "shared_documents": 4,
+      "mention_counts": "12x14",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "crookes dark space | fusion reactor",
+      "confidence": 0.72,
+      "types": "Technical Topic/Technical Topic",
+      "shared_documents": 3,
+      "mention_counts": "9x10",
+      "verification_status": "PENDING"
+    },
+    {
+      "pair": "APPLIED TECHNOLOGY ASSOCIATES | ATA",
+      "confidence": 0.713,
+      "types": "Organization/Organization",
+      "shared_documents": 4,
+      "mention_counts": "7x12",
+      "verification_status": "PENDING"
+    }
+  ]
+}

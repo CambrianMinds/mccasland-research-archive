@@ -7,6 +7,15 @@ The project is designed to do two things at once:
 - preserve the working research materials and captured source files;
 - publish a readable website that separates documented fact from inference.
 
+## Repo map
+
+The repository is organized around four roles:
+
+- [`docs/`](docs/): the public GitHub Pages site
+- [`research/`](research/README.md): the main working analysis and compiled report source
+- [`research/datasets/`](research/datasets/README.md): generated analysis package, structured outputs, and follow-up guides
+- [`sources/`](sources/), [`research-targets/`](research-targets/), and [`artifacts/`](artifacts/README.md): captured source material, target downloads, scraper outputs, and evidence artifacts
+
 ## Public site
 
 The GitHub Pages site lives in [`docs/`](docs/).
@@ -26,11 +35,30 @@ The underlying archive remains in the source directories:
 - [`research/trail-analysis.md`](research/trail-analysis.md): synthesis of the technical / nuclear / attribution trails
 - [`research/timeline.md`](research/timeline.md): dated chronology
 - [`research/findings-report.tex`](research/findings-report.tex): LaTeX source for the compiled report
+- [`research/datasets/README.md`](research/datasets/README.md): generated analysis package index
 - [`notes/claim-matrix.md`](notes/claim-matrix.md): claim-by-claim assessments
 - [`sources/manifest.md`](sources/manifest.md): source inventory and capture notes
 - [`sources/primary/`](sources/primary/): downloaded primary and near-primary records
 - [`sources/context/`](sources/context/): downloaded context pages and public commentary captures
-- [`research-targets/`](research-targets/): reading list, saved pages, media, and supporting technical references
+- [`research-targets/`](research-targets/): downloaded reading list, saved pages, media, and supporting technical references
+- [`artifacts/evidence/`](artifacts/evidence): loose evidence artifacts used during analysis
+- [`artifacts/x-scrape/`](artifacts/x-scrape): timestamped scraper outputs for public X profile capture runs
+
+## Working model
+
+This repository is best understood as:
+
+1. a public casefile and publishing surface in `docs/`
+2. a human-written research narrative in `research/` and `notes/`
+3. a source archive in `sources/` and `research-targets/`
+4. a generated analysis workspace in `research/datasets/` and `artifacts/`
+
+Rule of thumb for future additions:
+
+- put sourced narrative work in `research/` or `notes/`
+- put captured evidence in `sources/` or `artifacts/evidence/`
+- put generated analysis outputs in `research/datasets/`
+- keep `docs/` limited to public-site assets
 
 ## Working standards
 

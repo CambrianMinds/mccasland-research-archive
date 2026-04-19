@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "generated": "2026-04-19T15:07:38.560334",
+    "stage": 1,
+    "title": "McCasland Research Repository - Primary Entity Dataset",
+    "threshold": "Primary entities (2+ mentions across documents)",
+    "total_files_scanned": 57,
+    "total_entities_extracted": 53,
+    "primary_entities_count": 47
+  },
+  "entities": {
+    "tmbspaceships": {
+      "type": "Account/Handle",
+      "mention_count": 146,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research-targets\\README.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\manifest.json",
+        "research-targets\\pages\\root\\tmbspaceships\\tmbspaceships.html",
+        "sources\\context\\twicopy-tmbspaceships.html",
+        "sources\\manifest.md"
+      ]
+    },
+    "TMBSpaceships": {
+      "type": "Account/Handle",
+      "mention_count": 88,
+      "source_documents": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\ashton-forbes-podcast-transcript.md",
+        "sources\\context\\duckduckgo-ashton-forbes-tmbspaceships.html",
+        "sources\\context\\iheart-ashton-forbes-livestream.html",
+        "sources\\manifest.md",
+        "sources\\primary\\tmb-2025-08-24-yamantau-threat-reduction.md",
+        "sources\\primary\\tmb-2025-11-17-induced-nuclear-russia.md"
+      ]
+    },
+    "@tmbspaceships": {
+      "type": "Account/Handle",
+      "mention_count": 81,
+      "source_documents": [
+        "sources\\context\\twicopy-tmbspaceships.html"
+      ]
+    },
+    "RIVERSIDE RESEARCH": {
+      "type": "Organization",
+      "mention_count": 73,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\riverside-research-neil-mccasland-profile.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html"
+      ]
+    },
+    "@TMBSpaceships": {
+      "type": "Account/Handle",
+      "mention_count": 66,
+      "source_documents": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\ashton-forbes-podcast-transcript.md",
+        "sources\\manifest.md",
+        "sources\\primary\\tmb-2025-08-24-yamantau-threat-reduction.md",
+        "sources\\primary\\tmb-2025-11-17-induced-nuclear-russia.md"
+      ]
+    },
+    "Ashton Forbes": {
+      "type": "Person",
+      "mention_count": 64,
+      "source_documents": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\ashton-forbes-podcast-transcript.md",
+        "sources\\context\\ashton-forbes-site.html",
+        "sources\\context\\duckduckgo-ashton-forbes-tmbspaceships.html",
+        "sources\\context\\iheart-ashton-forbes-livestream.html",
+        "sources\\manifest.md"
+      ]
+    },
+    "WRIGHT-PATTERSON AFB": {
+      "type": "Organization",
+      "mention_count": 61,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\Air Fore Reserch Laboratory earns elite VPP _Star Site_ status _ Wright-Patterson AFB _ Article Display.html",
+        "sources\\primary\\MAJOR GENERAL WILLIAM N. MCCASLAND _ Air Force _ Biography.html"
+      ]
+    },
+    "TMBSPACESHIPS": {
+      "type": "Account/Handle",
+      "mention_count": 51,
+      "source_documents": [
+        "README.md",
+        "research-targets.md",
+        "research-targets\\README.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\manifest.json",
+        "research-targets\\pages\\root\\tmbspaceships\\tmbspaceships.html",
+        "research-targets\\source.md",
+        "research\\timeline.md",
+        "sources\\context\\duckduckgo-tmbspaceships-mccasland.html",
+        "sources\\context\\duckduckgo-tmbspaceships.html",
+        "sources\\context\\twstalker-tmbspaceships-profile.html",
+        "sources\\manifest.md",
+        "sources\\primary\\tmb-2025-08-24-yamantau-threat-reduction.md",
+        "sources\\primary\\tmb-2025-11-17-induced-nuclear-russia.md",
+        "xposts.md"
+      ]
+    },
+    "Neilmcc79": {
+      "type": "Person",
+      "mention_count": 49,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\wikileaks-emailid-14150-carey-accepted.html",
+        "sources\\primary\\wikileaks-emailid-5078-neilmcc79-time-clarification.html",
+        "sources\\primary\\wikileaks-emailid-9501-neilmcc79-thanks.html",
+        "sources\\primary\\wikileaks-search-delonge.html",
+        "sources\\primary\\wikileaks-search-neilmcc79.html"
+      ]
+    },
+    "AFRL": {
+      "type": "Organization",
+      "mention_count": 46,
+      "source_documents": [
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\manifest.md",
+        "sources\\primary\\Air Fore Reserch Laboratory earns elite VPP _Star Site_ status _ Wright-Patterson AFB _ Article Display.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html",
+        "sources\\primary\\tmb-2025-08-24-yamantau-threat-reduction.md"
+      ]
+    },
+    "plasma physics": {
+      "type": "Technical Topic",
+      "mention_count": 40,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\pages\\recommended-reading-list-directly-referenced-or-implied\\very-high-mach-number-electrostatic-shocks-in-collisionless-plasmas-2006-paper\\arxiv-abstract.html",
+        "research-targets\\source.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\ashton-forbes-site.html",
+        "sources\\context\\twicopy-tmbspaceships.html",
+        "sources\\primary\\riverside-research-neil-mccasland-profile.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html"
+      ]
+    },
+    "Neil Mccasland": {
+      "type": "Person",
+      "mention_count": 40,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\context\\iheart-ashton-forbes-livestream.html",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\manifest.md",
+        "sources\\primary\\abcnews-fbi-assisting-search-mar-12-2026.html",
+        "sources\\primary\\kpc-board-of-directors.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html",
+        "sources\\primary\\wikileaks-emailid-9501-neilmcc79-thanks.html"
+      ]
+    },
+    "AIR FORCE RESEARCH LABORATORY": {
+      "type": "Organization",
+      "mention_count": 38,
+      "source_documents": [
+        "research\\findings.md",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\primary\\Air Fore Reserch Laboratory earns elite VPP _Star Site_ status _ Wright-Patterson AFB _ Article Display.html",
+        "sources\\primary\\MAJOR GENERAL WILLIAM N. MCCASLAND _ Air Force _ Biography.html",
+        "sources\\primary\\abcnews-fbi-assisting-search-mar-12-2026.html",
+        "sources\\primary\\abcnews-mccasland-what-we-know-mar-16-2026.html",
+        "sources\\primary\\foxnews-mccasland-third-week-mar-16-2026.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html"
+      ]
+    },
+    "KIRTLAND AFB": {
+      "type": "Organization",
+      "mention_count": 36,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "sources\\primary\\MAJOR GENERAL WILLIAM N. MCCASLAND _ Air Force _ Biography.html",
+        "sources\\primary\\koat-mccasland-missing-mar-6-2026.html",
+        "sources\\primary\\kpc-board-of-directors.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html"
+      ]
+    },
+    "KIRTLAND PARTNERSHIP COMMITTEE": {
+      "type": "Organization",
+      "mention_count": 33,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\kpc-board-of-directors.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html"
+      ]
+    },
+    "William Neil Mccasland": {
+      "type": "Person",
+      "mention_count": 31,
+      "source_documents": [
+        "README.md",
+        "docs\\404.html",
+        "docs\\index.html",
+        "research\\findings.md",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\primary\\foxnews-mccasland-third-week-mar-16-2026.html",
+        "sources\\primary\\koat-mccasland-missing-mar-6-2026.html"
+      ]
+    },
+    "John Podesta": {
+      "type": "Person",
+      "mention_count": 30,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\primary\\wikileaks-emailid-14150-carey-accepted.html",
+        "sources\\primary\\wikileaks-emailid-2635-susan-accepted-delonge-podesta.html",
+        "sources\\primary\\wikileaks-emailid-3099-general-mccasland.html",
+        "sources\\primary\\wikileaks-emailid-5078-neilmcc79-time-clarification.html",
+        "sources\\primary\\wikileaks-emailid-9501-neilmcc79-thanks.html",
+        "sources\\primary\\wikileaks-general-mccasland-search.html",
+        "sources\\primary\\wikileaks-search-delonge.html",
+        "sources\\primary\\wikileaks-search-neilmcc79.html"
+      ]
+    },
+    "USAF": {
+      "type": "Organization",
+      "mention_count": 27,
+      "source_documents": [
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\pages\\root\\tmbspaceships\\tmbspaceships.html",
+        "research-targets\\source.md",
+        "research\\findings.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\twicopy-tmbspaceships.html",
+        "sources\\primary\\Air Fore Reserch Laboratory earns elite VPP _Star Site_ status _ Wright-Patterson AFB _ Article Display.html",
+        "sources\\primary\\MAJOR GENERAL WILLIAM N. MCCASLAND _ Air Force _ Biography.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html",
+        "xposts.md"
+      ]
+    },
+    "Susan Mccasland Wilkerson": {
+      "type": "Person",
+      "mention_count": 21,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\manifest.md",
+        "sources\\primary\\foxnews-mccasland-third-week-mar-16-2026.html",
+        "sources\\primary\\wikileaks-emailid-2635-susan-accepted-delonge-podesta.html"
+      ]
+    },
+    "Tom Delonge": {
+      "type": "Person",
+      "mention_count": 20,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\context\\militarycom-mccasland-conspiracy-theories.html",
+        "sources\\manifest.md",
+        "sources\\primary\\foxnews-mccasland-third-week-mar-16-2026.html",
+        "sources\\primary\\wikileaks-emailid-3099-general-mccasland.html",
+        "sources\\primary\\wikileaks-search-delonge.html"
+      ]
+    },
+    "AFIT": {
+      "type": "Organization",
+      "mention_count": 19,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\pages\\root\\tmbspaceships\\tmbspaceships.html",
+        "research-targets\\source.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\twicopy-tmbspaceships.html",
+        "sources\\manifest.md",
+        "sources\\primary\\Air Fore Reserch Laboratory earns elite VPP _Star Site_ status _ Wright-Patterson AFB _ Article Display.html",
+        "xposts.md"
+      ]
+    },
+    "@TMBSPACESHIPS": {
+      "type": "Account/Handle",
+      "mention_count": 17,
+      "source_documents": [
+        "research-targets.md",
+        "research-targets\\README.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\manifest.json",
+        "research-targets\\source.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\tmb-2025-08-24-yamantau-threat-reduction.md",
+        "sources\\primary\\tmb-2025-11-17-induced-nuclear-russia.md",
+        "xposts.md"
+      ]
+    },
+    "AFMC": {
+      "type": "Organization",
+      "mention_count": 15,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\pages\\root\\tmbspaceships\\tmbspaceships.html",
+        "research-targets\\source.md",
+        "research\\findings.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\twicopy-tmbspaceships.html",
+        "sources\\manifest.md",
+        "sources\\primary\\Air Fore Reserch Laboratory earns elite VPP _Star Site_ status _ Wright-Patterson AFB _ Article Display.html",
+        "xposts.md"
+      ]
+    },
+    "slow wave": {
+      "type": "Technical Topic",
+      "mention_count": 14,
+      "source_documents": [
+        "research-targets.md",
+        "research-targets\\README.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\manifest.json",
+        "research-targets\\source.md",
+        "research\\trail-analysis.md"
+      ]
+    },
+    "MIT": {
+      "type": "Organization",
+      "mention_count": 14,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research-targets\\pages\\recommended-reading-list-directly-referenced-or-implied\\shock-waves-in-collisionless-plasmas-chapter-3-magnetosonic-waves-shocks-and-solitons-archiveorg-details-shockwavesincoll00tidm\\shock-waves-in-collisionless-plasmas-chapter-3-magnetosonic-waves-shocks-and-solitons-archiveorg-details-shockwavesincoll00tidm.html",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\manifest.md",
+        "sources\\primary\\koat-mccasland-missing-mar-6-2026.html"
+      ]
+    },
+    "Susan Wilkerson": {
+      "type": "Person",
+      "mention_count": 13,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\ashton-forbes-podcast-transcript.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "Dbe Consulting": {
+      "type": "Person",
+      "mention_count": 13,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html"
+      ]
+    },
+    "electret": {
+      "type": "Technical Topic",
+      "mention_count": 12,
+      "source_documents": [
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\source.md",
+        "research\\trail-analysis.md"
+      ]
+    },
+    "February 27, 2026": {
+      "type": "Date/Event",
+      "mention_count": 12,
+      "source_documents": [
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\trail-analysis.md",
+        "xposts.md"
+      ]
+    },
+    "ATA": {
+      "type": "Organization",
+      "mention_count": 12,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html"
+      ]
+    },
+    "mhd": {
+      "type": "Technical Topic",
+      "mention_count": 11,
+      "source_documents": [
+        "docs\\404.html",
+        "docs\\index.html",
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\trail-analysis.md",
+        "sources\\context\\iheart-ashton-forbes-livestream.html"
+      ]
+    },
+    "fusion reactor": {
+      "type": "Technical Topic",
+      "mention_count": 10,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\context\\ashton-forbes-podcast-transcript.md",
+        "sources\\context\\iheart-ashton-forbes-livestream.html"
+      ]
+    },
+    "solid-state power": {
+      "type": "Technical Topic",
+      "mention_count": 9,
+      "source_documents": [
+        "research-targets.md",
+        "research-targets\\README.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\manifest.json",
+        "research-targets\\source.md",
+        "research\\findings.md"
+      ]
+    },
+    "crookes dark space": {
+      "type": "Technical Topic",
+      "mention_count": 9,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "research\\trail-analysis.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "Rob Weiss": {
+      "type": "Person",
+      "mention_count": 7,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\manifest.md"
+      ]
+    },
+    "APPLIED TECHNOLOGY ASSOCIATES": {
+      "type": "Organization",
+      "mention_count": 7,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\timeline.md",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html",
+        "sources\\primary\\riverside-research-neil-mccasland.html"
+      ]
+    },
+    "thermal ionic heating": {
+      "type": "Technical Topic",
+      "mention_count": 5,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research-targets.md",
+        "research-targets\\guide-local.md",
+        "research-targets\\source.md",
+        "research\\findings.md"
+      ]
+    },
+    "AIR FORCE ACADEMY": {
+      "type": "Organization",
+      "mention_count": 5,
+      "source_documents": [
+        "research\\findings.md",
+        "sources\\primary\\MAJOR GENERAL WILLIAM N. MCCASLAND _ Air Force _ Biography.html",
+        "sources\\primary\\kpc-neil-mccasland-board-bio.html"
+      ]
+    },
+    "February 16, 2026": {
+      "type": "Date/Event",
+      "mention_count": 5,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\trail-analysis.md"
+      ]
+    },
+    "February 20, 2026": {
+      "type": "Date/Event",
+      "mention_count": 4,
+      "source_documents": [
+        "research\\trail-analysis.md",
+        "xposts.md"
+      ]
+    },
+    "James Tegnelia": {
+      "type": "Person",
+      "mention_count": 4,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md"
+      ]
+    },
+    "z-pinch": {
+      "type": "Technical Topic",
+      "mention_count": 4,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md",
+        "sources\\context\\ashton-forbes-podcast-transcript.md"
+      ]
+    },
+    "February 13, 2026": {
+      "type": "Date/Event",
+      "mention_count": 4,
+      "source_documents": [
+        "research\\findings.md",
+        "research\\trail-analysis.md"
+      ]
+    },
+    "fusion propulsion": {
+      "type": "Technical Topic",
+      "mention_count": 3,
+      "source_documents": [
+        "sources\\context\\ashton-forbes-podcast-transcript.md",
+        "sources\\context\\iheart-ashton-forbes-livestream.html"
+      ]
+    },
+    "December 30, 2024": {
+      "type": "Date/Event",
+      "mention_count": 2,
+      "source_documents": [
+        "xposts.md"
+      ]
+    },
+    "LOCKHEED SKUNK WORKS": {
+      "type": "Organization",
+      "mention_count": 2,
+      "source_documents": [
+        "notes\\claim-matrix.md"
+      ]
+    },
+    "plasma propulsion": {
+      "type": "Technical Topic",
+      "mention_count": 2,
+      "source_documents": [
+        "notes\\claim-matrix.md",
+        "research\\findings.md"
+      ]
+    }
+  }
+}

@@ -4,7 +4,12 @@ research/*.out
 research/*.toc
 research/*.synctex.gz
 research/.git.research-backup/
-artifacts/
+artifacts/*
+!artifacts/README.md
+!artifacts/evidence/
+!artifacts/evidence/**
+!artifacts/reports/
+!artifacts/reports/findings-report.pdf
 scripts/__pycache__/
 secrets/
 
