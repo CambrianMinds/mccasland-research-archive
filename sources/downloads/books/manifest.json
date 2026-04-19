@@ -1,0 +1,386 @@
+[
+  {
+    "title": "aip conference proceedings cover 1983",
+    "source_cover": "assets\\categorized\\book-covers\\20231228_102109_aip-conference-proceedings-cover-1983.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "introduction to electrodynamics and radiation",
+    "source_cover": "assets\\categorized\\book-covers\\20240106_073917_introduction-to-electrodynamics-and-radiation-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "fundamentals of heat and mass transfer",
+    "source_cover": "assets\\categorized\\book-covers\\20240106_100138_fundamentals-of-heat-and-mass-transfer-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/fundamentals-of-heat-and-mass-transfer-6th-edition/fundamentals-of-heat-and-mass-transfer-6th-edition.pdf",
+    "local_path": "sources\\downloads\\books\\fundamentals-of-heat-and-mass-transfer.pdf",
+    "note": null
+  },
+  {
+    "title": "electronic structure properties solids",
+    "source_cover": "assets\\categorized\\book-covers\\20240106_150833_electronic-structure-properties-solids-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "interfacial phenomena",
+    "source_cover": "assets\\categorized\\book-covers\\20240108_183650_interfacial-phenomena-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/arxiv-1106.4350/1106.4350.pdf",
+    "local_path": "sources\\downloads\\books\\interfacial-phenomena.pdf",
+    "note": null
+  },
+  {
+    "title": "interfacial properties submicrometer scale",
+    "source_cover": "assets\\categorized\\book-covers\\20240108_183650_interfacial-properties-submicrometer-scale-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "electromagnetic scintillation",
+    "source_cover": "assets\\categorized\\book-covers\\20240109_141056_electromagnetic-scintillation-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "instabilities in a confined plasma",
+    "source_cover": "assets\\categorized\\book-covers\\20240110_163307_instabilities-in-a-confined-plasma-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "plasma deposition",
+    "source_cover": "assets\\categorized\\book-covers\\20240110_215050_plasma-deposition-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/DTIC_ADA188093/DTIC_ADA188093.pdf",
+    "local_path": "sources\\downloads\\books\\plasma-deposition.pdf",
+    "note": null
+  },
+  {
+    "title": "physics of submicron structures",
+    "source_cover": "assets\\categorized\\book-covers\\20240111_190936_physics-of-submicron-structures-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "title": "magneto luminous chemical vapor deposition",
+    "source_cover": "assets\\categorized\\book-covers\\20240920_233522_magneto-luminous-chemical-vapor-deposition-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "channeling and radiation in periodically bent crystals",
+    "source_cover": "assets\\categorized\\book-covers\\20241125_124157_channeling-and-radiation-in-periodically-bent-crystals-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "plasma waves",
+    "source_cover": "assets\\categorized\\book-covers\\20241128_211424_plasma-waves-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/DTIC_ADA251245/DTIC_ADA251245.pdf",
+    "local_path": "sources\\downloads\\books\\plasma-waves.pdf",
+    "note": null
+  },
+  {
+    "title": "thermoacoustics",
+    "source_cover": "assets\\categorized\\book-covers\\20241204_202945_thermoacoustics-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/DTIC_ADA396927/DTIC_ADA396927_text.pdf",
+    "local_path": "sources\\downloads\\books\\thermoacoustics.pdf",
+    "note": null
+  },
+  {
+    "title": "thermoacoustic instability",
+    "source_cover": "assets\\categorized\\book-covers\\20241204_210127_thermoacoustic-instability-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/NASA_NTRS_Archive_20080032769/NASA_NTRS_Archive_20080032769.pdf",
+    "local_path": "sources\\downloads\\books\\thermoacoustic-instability.pdf",
+    "note": null
+  },
+  {
+    "title": "aspects of anomalous transport in plasmas",
+    "source_cover": "assets\\categorized\\book-covers\\20241205_010146_aspects-of-anomalous-transport-in-plasmas-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "electrodynamics of continuous media",
+    "source_cover": "assets\\categorized\\book-covers\\20241205_084309_electrodynamics-of-continuous-media-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/ost-physics-landaulifshitz-electrodynamicsofcontinuousmedia/LandauLifshitz-ElectrodynamicsOfContinuousMedia.pdf",
+    "local_path": "sources\\downloads\\books\\electrodynamics-of-continuous-media.pdf",
+    "note": null
+  },
+  {
+    "title": "acoustics of nanodispersed magnetic fluids",
+    "source_cover": "assets\\categorized\\book-covers\\20241205_235829_acoustics-of-nanodispersed-magnetic-fluids-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "linear fractional diffusion wave equation",
+    "source_cover": "assets\\categorized\\book-covers\\20241206_172253_linear-fractional-diffusion-wave-equation-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "the stars are too high",
+    "source_cover": "assets\\categorized\\book-covers\\20241206_215414_the-stars-are-too-high-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": "HTTP Error 403: Forbidden"
+  },
+  {
+    "title": "fractional dynamics",
+    "source_cover": "assets\\categorized\\book-covers\\20241206_224553_fractional-dynamics-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/arxiv-1402.4058/1402.4058.pdf",
+    "local_path": "sources\\downloads\\books\\fractional-dynamics.pdf",
+    "note": null
+  },
+  {
+    "title": "fractional thermoelasticity",
+    "source_cover": "assets\\categorized\\book-covers\\20241209_010450_fractional-thermoelasticity-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "nonlinear turbulance",
+    "source_cover": "assets\\categorized\\book-covers\\20241209_013142_nonlinear-turbulance-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "red aip conference proceedings cover",
+    "source_cover": "assets\\categorized\\book-covers\\20241209_181307_red-aip-conference-proceedings-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "thermodynamics of the glassy state",
+    "source_cover": "assets\\categorized\\book-covers\\20241225_132930_thermodynamics-of-the-glassy-state-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/jresv83n3p283/jresv83n3p283_A1b.pdf",
+    "local_path": "sources\\downloads\\books\\thermodynamics-of-the-glassy-state.pdf",
+    "note": null
+  },
+  {
+    "title": "the handbook of glass manufacture",
+    "source_cover": "assets\\categorized\\book-covers\\20241225_134510_the-handbook-of-glass-manufacture-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "title": "spin glass theory",
+    "source_cover": "assets\\categorized\\book-covers\\20241225_135359_spin-glass-theory-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/arxiv-cond-mat0006391/cond-mat0006391.pdf",
+    "local_path": "sources\\downloads\\books\\spin-glass-theory.pdf",
+    "note": null
+  },
+  {
+    "title": "the development of sex differences and similarities in behavior",
+    "source_cover": "assets\\categorized\\book-covers\\20241225_160459_the-development-of-sex-differences-and-similarities-in-behavior-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "public private partnerships for sports facilities",
+    "source_cover": "assets\\categorized\\book-covers\\20250103_120226_public-private-partnerships-for-sports-facilities-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "six dimensional superconformal field theories",
+    "source_cover": "assets\\categorized\\book-covers\\20250419_153359_six-dimensional-superconformal-field-theories-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "sixty shades of generalized continua",
+    "source_cover": "assets\\categorized\\book-covers\\20250427_202253_sixty-shades-of-generalized-continua-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "plasma kinetic theory",
+    "source_cover": "assets\\categorized\\book-covers\\20250428_204621_plasma-kinetic-theory-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/NASA_NTRS_Archive_19700002626/NASA_NTRS_Archive_19700002626.pdf",
+    "local_path": "sources\\downloads\\books\\plasma-kinetic-theory.pdf",
+    "note": null
+  },
+  {
+    "title": "plasma physics and controlled fusion",
+    "source_cover": "assets\\categorized\\book-covers\\20250428_205634_plasma-physics-and-controlled-fusion-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/sim_plasma-physics-and-controlled-fusion_1988_30_contents_2/sim_plasma-physics-and-controlled-fusion_1988_30_contents_2.pdf",
+    "local_path": "sources\\downloads\\books\\plasma-physics-and-controlled-fusion.pdf",
+    "note": null
+  },
+  {
+    "title": "advanced magnetohydrodynamics",
+    "source_cover": "assets\\categorized\\book-covers\\20250428_232214_advanced-magnetohydrodynamics-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/advanced.magnetohydrodynamics.with.applications.to.laboratory.and.astrophysical.plasmas/Advanced.Magnetohydrodynamics.With.Applications.to.Laboratory.and.Astrophysical.Plasmas.pdf",
+    "local_path": "sources\\downloads\\books\\advanced-magnetohydrodynamics.pdf",
+    "note": null
+  },
+  {
+    "title": "introduction to plasmas and plasma dynamics",
+    "source_cover": "assets\\categorized\\book-covers\\20250429_231617_introduction-to-plasmas-and-plasma-dynamics-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "springer theses",
+    "source_cover": "assets\\categorized\\book-covers\\20250624_213445_springer-theses-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "f 16 fly by wire",
+    "source_cover": "assets\\categorized\\book-covers\\20250820_170320_f-16-fly-by-wire-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "plasma modeling",
+    "source_cover": "assets\\categorized\\book-covers\\20250824_141610_plasma-modeling-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/arxiv-astro-ph0304200/astro-ph0304200.pdf",
+    "local_path": "sources\\downloads\\books\\plasma-modeling.pdf",
+    "note": null
+  },
+  {
+    "title": "mathematical aspects modelling oscillations plasma",
+    "source_cover": "assets\\categorized\\book-covers\\20250902_143310_mathematical-aspects-modelling-oscillations-plasma-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "computational thinking pseudocode",
+    "source_cover": "assets\\categorized\\book-covers\\20250914_160136_computational-thinking-pseudocode-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "physics of electric propulsion",
+    "source_cover": "assets\\categorized\\book-covers\\20251107_172907_physics-of-electric-propulsion-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "shock waves in collisionless plasmas",
+    "source_cover": "assets\\categorized\\book-covers\\20260216_093016_shock-waves-in-collisionless-plasmas-book-cover.jpg",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/NASA_NTRS_Archive_19870018985/NASA_NTRS_Archive_19870018985.pdf",
+    "local_path": "sources\\downloads\\books\\shock-waves-in-collisionless-plasmas.pdf",
+    "note": null
+  },
+  {
+    "title": "willemite based glass ceramic",
+    "source_cover": "assets\\categorized\\book-covers\\20260217_192004_willemite-based-glass-ceramic-book-cover.png",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "magnetic stochasticity in magnetically confined fusion plasmas",
+    "source_cover": "assets\\categorized\\book-covers\\20260222_135514_magnetic-stochasticity-in-magnetically-confined-fusion-plasmas-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "swarm navigation",
+    "source_cover": "assets\\categorized\\book-covers\\20260224_081125_swarm-navigation-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/arxiv-1505.05695/1505.05695.pdf",
+    "local_path": "sources\\downloads\\books\\swarm-navigation.pdf",
+    "note": null
+  },
+  {
+    "title": "glow discharge hydrogenated amorphous silicon",
+    "source_cover": "assets\\categorized\\book-covers\\20260224_213302_glow-discharge-hydrogenated-amorphous-silicon-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "electro acoustic waves",
+    "source_cover": "assets\\categorized\\book-covers\\20260225_141214_electro-acoustic-waves-book-cover.jpg",
+    "status": "not_found",
+    "pdf_url": null,
+    "local_path": null,
+    "note": null
+  },
+  {
+    "title": "muon catalyzed fusion",
+    "source_cover": "assets\\categorized\\book-covers\\20260225_141751_muon-catalyzed-fusion-book-cover.png",
+    "status": "downloaded",
+    "pdf_url": "https://archive.org/download/NASA_NTRS_Archive_20080040752/NASA_NTRS_Archive_20080040752.pdf",
+    "local_path": "sources\\downloads\\books\\muon-catalyzed-fusion.pdf",
+    "note": null
+  }
+]
